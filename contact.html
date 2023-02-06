@@ -4,72 +4,89 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Anthony</title>
+    <title>Anthony Hernandez</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <nav>
+    <header>
         <a href="https://radiant-brioche-f1811d.netlify.app/index.html">Anthony Hernandez</a>
-        <a href="https://radiant-brioche-f1811d.netlify.app/cv.html">CV</a>
-        <a href="https://radiant-brioche-f1811d.netlify.app/projects.html">Projects</a>
-        <a href="https://radiant-brioche-f1811d.netlify.app/contact.html">Contact Me</a>
-    </nav>
-
-    <!-- <nav>
-        <a href="http://127.0.0.1:5500/index.html">Anthony Hernandez</a>
-        <a href="http://127.0.0.1:5500/cv.html">CV</a>
-        <a href="http://127.0.0.1:5500/projects.html">Projects</a>
-        <a href="http://127.0.0.1:5500/contact.html">Contact Me</a>
-    </nav> -->
+        <nav>
+            <ul>
+                <a href="https://radiant-brioche-f1811d.netlify.app/cv.html">CV</a> &nbsp;&nbsp;&nbsp;
+                <a href="https://radiant-brioche-f1811d.netlify.app/projects.html">Projects</a>&nbsp;&nbsp;&nbsp;
+                <a href="https://radiant-brioche-f1811d.netlify.app/contact.html">Contact Me</a>&nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav>
+        <!-- <a href="http://127.0.0.1:5500/index.html">Anthony Hernandez</a>
+        <nav>
+            <ul>
+                <a href="http://127.0.0.1:5500/cv.html">CV</a> &nbsp;&nbsp;&nbsp;
+                <a href="http://127.0.0.1:5500/projects.html">Projects</a>&nbsp;&nbsp;&nbsp;
+                <a href="http://127.0.0.1:5500/contact.html">Contact Me</a>&nbsp;&nbsp;&nbsp;
+            </ul>
+        </nav> -->
+    </header>
     <hr>
-    <h1>Lets Talk!</h1>
-
-    <form action="" method="" id="contactForm">
-        <fieldset>
-         <legend>Your Contact Information:</legend>
-        <label for="title">Prefix:</label>
-         <select name="title" id="title">
-            <optgroup label="Professional Titles">
-                <option value="dr.">Dr.</option>
-            </optgroup>
-            <optgroup label="Other titles">
-                <option value="mr.">Mr.</option>
-                <option value="ms.">Ms.</option>
-                <option value="mrs.">Mrs.</option>
-            </optgroup>
-         </select><br>
-         <label for="fname">First name:</label>
-         <input type="text" id="fname" name="fname"><br>
-         <label for="lname">Last name:</label>
-         <input type="text" id="lname" name="lname"><br>
-         <label for="email">Email:</label>
-         <input type="email" id="email" name="email"><br>
-         <label for="comment">Additional Comment:</label>
-         <textarea name="comment" id="commnet" cols="30" rows="5"></textarea><br>
-         <label for="contactReason">Reason for reaching out:</label>
-         <input list="reasonsList" name="reasons" id="reasons"><br>
-         <datalist id="reasonsList">
-             <option value="Job opportunity"></option>
-             <option value="Business Opportunity"></option>
-             <option value="Just to chat"></option>
-         </datalist>
-        </input>
-         <button type="submit" onclick="showAlert()">Submit</button>
-        </fieldset>
-    </form>
-
-    <template name="temp1" id="temp1">
-        <p>Thanks for reaching out, I'll get back you to you as soon as I can!</p>
-    </template>
-
-    <script>
-        function showAlert(){
-            alert("Thanks for reaching out, I'll get back to you as soon as I can!")
-        }
-    </script>
-    
+    <div class="wrapper">
+        <aside class="sidebar"> 
+            <picture>
+                <source media="(min-width:300px)" srcset="https://radiant-brioche-f1811d.netlify.app/placeholder.png">
+                <img src="https://radiant-brioche-f1811d.netlify.app/placeholder.png" alt="A picture of me." style="width: 300px;;">
+            </picture> <br>
+        </aside>
+        <main>
+            <header>
+                <h1>Lets Talk!</h1>
+            </header>
+            <div class="content">
+                <form action="" method="" id="contactForm">
+                    <fieldset>
+                     <legend class="highlight">Your Contact Information:</legend>
+                    <label for="title">Prefix:</label>
+                     <select name="title" id="title">
+                        <optgroup label="Professional Titles">
+                            <option value="dr.">Dr.</option>
+                        </optgroup>
+                        <optgroup label="Other titles">
+                            <option value="mr.">Mr.</option>
+                            <option value="ms.">Ms.</option>
+                            <option value="mrs.">Mrs.</option>
+                        </optgroup>
+                     </select><br>
+                     <label for="fname">First name:</label>
+                     <input type="text" id="fname" name="fname"><br>
+                     <label for="lname">Last name:</label>
+                     <input type="text" id="lname" name="lname"><br>
+                     <label for="email">Email:</label>
+                     <input type="email" id="email" name="email"><br>
+                     <label for="comment">Additional Comment:</label>
+                     <textarea name="comment" id="commnet" cols="30" rows="5"></textarea><br>
+                     <label for="contactReason">Reason for reaching out:</label>
+                     <input list="reasonsList" name="reasons" id="reasons"><br>
+                     <datalist id="reasonsList">
+                         <option value="Job opportunity"></option>
+                         <option value="Business Opportunity"></option>
+                         <option value="Just to chat"></option>
+                     </datalist>
+                    </input>
+                     <button type="submit" onclick="showAlert()">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <template name="temp1" id="temp1">
+                <p>Thanks for reaching out, I'll get back you to you as soon as I can!</p>
+            </template>
+            <script>
+                function showAlert(){
+                    alert("Thanks for reaching out, I'll get back to you as soon as I can!")
+                }
+            </script>
+        </main>
+    </div>
 </body><br><br>
 <footer>
-    <p>
-        feel free to email me regarding any job opportunities and have a blessed day.</p> 
+    <header>
+        <a href="http://127.0.0.1:5500/cv.html">LinkedIn</a>
+    </header>
 </footer>
 </html>
