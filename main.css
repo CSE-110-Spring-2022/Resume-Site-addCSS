@@ -161,3 +161,87 @@
   .highlight {
     transform: skew(20deg);
   }
+
+  /* (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  
+    picture>img {
+      width: 150px !important;
+     }
+
+     section>picture {
+      width: 200px !important;
+      height: 75px !important;
+     }
+
+     iframe {
+      width: 250 !important;
+      height: 125 !important;
+     }
+     main{
+      font-size: 1rem !important;
+     }
+
+     body>header>nav>a {
+      display: inline;
+      padding-right: 30px;
+      font-size: 1.2rem;
+    }
+
+  }
+
+  /* (portrait tablets, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    picture>img {
+      width: 250px !important;
+     }
+
+     section>picture {
+      width: 250px !important;
+      height: 100px !important;
+     }
+
+     iframe {
+      width: 300 !important;
+      height: 175 !important;
+     }
+     main{
+      font-size: 1.2rem !important;
+     }
+
+     body>header>nav>a {
+      display: inline;
+      padding-right: 30px;
+      font-size: 1.4rem;
+    }
+
+  }
+
+    /* (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 1300px) {
+    picture>img {
+      width: 300px !important;
+     }
+
+     section>picture {
+      width: 500px !important;
+      height: 275px !important;
+     }
+
+     iframe {
+      width: 560 !important;
+      height: 315 !important;
+     }
+     main{
+      font-size: 1.4rem !important;
+     }
+
+     body>header>nav>a {
+      display: inline;
+      padding-right: 30px;
+      font-size: 1.4rem;
+    }
+  } 
+
+
+  
