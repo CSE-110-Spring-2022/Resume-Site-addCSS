@@ -13,12 +13,6 @@
     padding: 0;
   }
 
-  /* width="560" height="315" */
-  #transition:hover {
-    width: 660;
-    height: 415;
-  }
-
   /* This is for the body */
   body>header {
     align-items: center;
@@ -124,9 +118,9 @@
     border-radius: 50%;
   }
 
-  img {
+  /* img {
     position: center;
-  }
+  } */
   .center {
     display: block;
     margin-left: auto;
@@ -186,12 +180,12 @@
      }
 
      iframe {
-      width: 250 !important;
-      height: 125 !important;
+      width: 430px !important;
+      height: 200px !important;
      }
      main{
       font-size: 1rem !important;
-      max-width: 75ch !important;;
+      max-width: 75ch !important;
      }
 
      body>header>nav>a {
@@ -214,12 +208,12 @@
      }
 
      iframe {
-      width: 300 !important;
-      height: 175 !important;
+      width: 560px !important;
+      height: 315px !important;
      }
      main{
       font-size: 1.2rem !important;
-      max-width: 107ch !important;;
+      max-width: 107ch !important;
      }
 
      body>header>nav>a {
@@ -242,12 +236,12 @@
      }
 
      iframe {
-      width: 560 !important;
-      height: 315 !important;
+      width: 560px !important;
+      height: 315px !important;
      }
      main{
       font-size: 1.4rem !important;
-      max-width: 107ch !important;;
+      max-width: 107ch !important;
      }
 
      body>header>nav>a {
