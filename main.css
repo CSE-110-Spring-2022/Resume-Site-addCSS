@@ -13,6 +13,12 @@
     padding: 0;
   }
 
+  /* width="560" height="315" */
+  #transition:hover {
+    width: 660;
+    height: 415;
+  }
+
   /* This is for the body */
   body>header {
     align-items: center;
@@ -107,6 +113,11 @@
   
   h1 {
     margin-bottom: 0;
+  }
+
+  h2:hover {
+    font-size: 30pt;
+    transition: font-size .3s;
   }
 
   aside>picture>img {
