@@ -215,13 +215,13 @@
      main{
       font-size: 1.4rem !important;
       max-width: 107ch !important;
-      min-width: 65ch;
+      min-width: 40ch;
      }
 
      body>header>nav>a {
       display: inline !important;
       padding-right: 30px !important;
-      font-size: 1.4rem !important;
+      font-size: 1.3rem !important;
     }
 
   }
